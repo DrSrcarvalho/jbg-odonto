@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JBG Odonto | Reabilitação Oral & Implantodontia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root { --bronze: #c5a47e; --dark: #1a1512; }
+        body { background-color: var(--dark); color: #e5e7eb; font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .text-bronze { color: var(--bronze); }
+        .bg-bronze { background-color: var(--bronze); }
+        .border-bronze { border-color: var(--bronze); }
+        .btn-gold {
+            background: linear-gradient(135deg, #c5a47e 0%, #896d49 100%);
+            transition: all 0.3s ease;
+        }
+        .btn-gold:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.4); }
+        .card-service { background: #251f1b; border: 1px solid #3d322b; transition: all 0.3s ease; }
+        .card-service:hover { border-color: var(--bronze); }
+    </style>
+</head>
+<body>
+    <header class="fixed w-full z-50 bg-[#1a1512]/90 backdrop-blur-md border-b border-white/5">
+        <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-serif text-bronze tracking-tighter">JBG</span>
+                <span class="text-[10px] uppercase tracking-[0.3em] border-l border-bronze pl-3 ml-1">Odonto</span>
+            </div>
+            <div class="hidden md:flex space-x-10 text-[10px] uppercase tracking-widest font-semibold">
+                <a href="#inicio" class="hover:text-bronze transition">Início</a>
+                <a href="#sobre" class="hover:text-bronze transition">O Doutor</a>
+                <a href="#servicos" class="hover:text-bronze transition">Serviços</a>
+                <a href="#contato" class="hover:text-bronze transition text-bronze">Agendamento</a>
+            </div>
+        </nav>
+    </header>
+    <section id="inicio" class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+            <h2 class="text-bronze text-sm md:text-base tracking-[0.5em] uppercase mb-6">Excelência em Implantodontia</h2>
+            <h1 class="font-serif text-5xl md:text-8xl mb-8 leading-tight">Sorrisos que refletem <br><span class="italic font-light">sua melhor versão.</span></h1>
+            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light">
+                Tecnologia de ponta em Reabilitação Oral e Estética Avançada sob a direção técnica do Dr. Jefferson.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="https://wa.me/5511999999999" class="btn-gold px-12 py-5 rounded-full text-white font-bold uppercase text-xs tracking-widest">Agendar Consulta</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
